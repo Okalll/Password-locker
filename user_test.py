@@ -39,9 +39,20 @@ class TestUser(unittest.TestCase):
         test_save_multiple_user test checks to test if the user can save multiple users to our user_list
         '''
         self.new_user.save_user()
-        test_user = User("Test","password","email") # new user
+        test_user = User("Okall", "1234", "vivieokall@gmail.com") # new user
         test_user.save_user()
         self.assertEqual(len(User.user_list),2)
+
+    def test_confirm_user(self):
+        '''
+        Function to confirm login details to current user
+        '''
+        self.new_user = User("Okall", "1234", "vivieokall@gmail.com")
+        self.new_user.save_user()
+        test_user= User("Okall", "1234", "vivieokall@gmail.com")
+        test_user.save_user()
+        active_user = User.confirm_user("Okall", "1234", "vivieokall@gmail.com")
+        self.assertTrue(active_user)
 
 if __name__ == '__main__':
     unittest.main()
