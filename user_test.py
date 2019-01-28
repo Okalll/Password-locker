@@ -54,5 +54,13 @@ class TestUser(unittest.TestCase):
         active_user = User.confirm_user("Okall", "1234", "vivieokall@gmail.com")
         self.assertTrue(active_user)
 
+    def test_display_all_user(self):
+        '''
+        method that returns a list of all users saved
+        '''
+
+        self.assertEqual(User.display_users(),User
+        .user_list)
+
 if __name__ == '__main__':
     unittest.main()

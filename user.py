@@ -31,3 +31,10 @@ class User:
             if (user.username == username and user.password == password):
                 current_user = user.username
         return current_user
+
+    @classmethod
+    def display_users(cls):
+        '''
+        method that returns the contact list
+        '''
+        return cls.user_list
