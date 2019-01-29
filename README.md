@@ -1,20 +1,22 @@
-# Password Locker
+# PASSWORD-LOCKER
+
 ## AUTHORS
 Okall Vivian.
 
 ## Description
 
-This application enables an individual to search for a github user's name on the application and display the information of the individual.
+This is a terminal driven application that enables creation of accounts and inputing credentials.
 
 ## Setup/Installation Requirements
 
 To start using this project use the following commands:
 * First if the user is not on Github he/she is advised to create an account.
 * Once you are on Github you can navigate through account username: Okalll
-* Then when you go through my repositories check out Git repo
+* Then when you go through my repositories check out a repository called Password-locker.
 * `git clone https://github.com/Okalll/Password-locker`
 * `cd Git`to get in to the file through Terminal
 * Then use `atom .`to open the files to the application.
+* One can also use `code.` if you are using vs code.
 
 ## Behaviour Driven development.
 The application enables a user to search a github username and the in return it displays the user's information.
