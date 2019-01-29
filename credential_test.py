@@ -26,3 +26,10 @@ def test_init(self):
         self.assertEqual(self.new_user.account,"Instagram")
         self.assertEqual(self.new_user.password,"2000")
         
+def test_save_credential(self):
+        '''
+        test_save_credential test case to test if the credential object is saved into
+         the credential list
+        '''
+        self.new_credential.save_credential() # saving the new credentials
+        self.assertEqual(len(Credential.credential_list),1)
