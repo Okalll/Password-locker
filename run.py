@@ -86,7 +86,7 @@ def main():
                 print("Enter user you want to confirm existance")
                 search_username = input()
                 if confirm_user(username, password, email):
-                    print(f"{search_username} {search_email}")
+                    print(f"{search_username}")
                 else:
                     print("User does not exist")
 
