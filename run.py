@@ -10,7 +10,7 @@ def create_user(account,password):
     return new_user
 
 
-def save_user():
+def save_user(username, password, email):
     """
     saving the user
     """
@@ -60,7 +60,12 @@ def main():
                 print("email")
                 email = input()
 
-                save_user(create_user(username,password,email))
+                save_user(username, password, email)
                 #creates and saves new user
                 print ('\n')
                 print(f"New User {username} {email} created")
+                print ('\n')
+
+            elif short_code == 'du':
+               if display_user():
+                print("Here is a list of your users")
