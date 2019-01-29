@@ -12,3 +12,9 @@ class TestCredential(unittest.TestCase):
         set up method to run before  each test cases
         """
         self.new_credential= Credential("Okall", "1234", "vivieokall@gmail.com")
+# setup and class creation up here
+    def tearDown(self):
+            '''
+            tearDown method that does clean up after each test case has run.
+            '''
+            Credential.credential_list = []
