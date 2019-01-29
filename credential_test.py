@@ -33,3 +33,5 @@ def test_save_credential(self):
         '''
         self.new_credential.save_credential() # saving the new credentials
         self.assertEqual(len(Credential.credential_list),1)
+
+
