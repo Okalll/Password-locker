@@ -6,17 +6,16 @@ class Credential:
     """
     credential_list=[]
 
-def __init__(self, username, password, email):
+def __init__(self, account, password):
 
         '''
         __init__method that helps us with the properties of the users as our objects
     
         Args:
-             username: new credential account
+             account: new credential account
              password: new credential password
-             email: new credential email address
 
         '''
-        self.username = username
+        self.account = account
         self.password = password
 
