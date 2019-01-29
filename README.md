@@ -7,6 +7,13 @@ Okall Vivian.
 
 This is a terminal driven application that enables creation of accounts and inputing credentials.
 
+## Prerequisites
+To install this project you need the following:
+* A Github account
+* A terminal
+* Python3.6
+
+
 ## Setup/Installation Requirements
 
 To start using this project use the following commands:
@@ -17,17 +24,18 @@ To start using this project use the following commands:
 * `cd Git`to get in to the file through Terminal
 * Then use `atom .`to open the files to the application.
 * One can also use `code.` if you are using vs code.
-
-## Behaviour Driven development.
-The application enables a user to search a github username and the in return it displays the user's information.
+* To run the application one should type `./run.py`in terminal.
 
 | Behaviour | input | Output |
 | :-------- | :---- | :----- |
-| A command is entered  | At the type of the first letter| A github username and details |
-| Display user's details | Input the user's name  | Display user details |
-| Click on any Repository to view | Click on just any Repository | Respective repository is shown to you |
+| Creation of account  | Input name, paswword, email | Information entered |
+| Login into the application | Input information needed  | Display user details |
+| Delete an account | ________ | account removed |
 
 ## Known Bugs
+
+## Known bugs
+
 For now there are no known bugs that I am aware of but if you do find any you could reach me through vivieokall@gmail.com
 
 ### License
