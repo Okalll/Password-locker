@@ -5,39 +5,48 @@ class Credential:
     credential_list = []
 
 
-def __init__(self, account, password):
-    '''
-    __init__method that helps us with the properties of the users as our objects
+    def __init__(self, account, password):
+        '''
+        __init__method that helps us with the properties of the users as our objects
 
-    Args:
-         account: new credential account
-         password: new credential password
+        Args:
+            account: new credential account
+            password: new credential password
 
-    '''
-    self.account = account
-    self.password = password
-
-# def save_credential(self):
-#         '''
-#         save_credential method saves credential objects into credential_list
-#         '''
-#         Credential.credential_list.append(self)
+        '''
+        self.account = account
+        self.password = password
 
 
-# @classmethod
-# def confirm_credential(cls, username, password):
-#         '''
-#         Method that checks if the account and password  entered match entries in the credential_list
-#         '''
-#         current_credential = ''
-#         for credential in Credential.credential_list:
-#             if (credential.account == account and credential.password == password):
-#                 current_user = credential.username
-#         return current_credential
+    def save_credential(self):
+            '''
+            save_credential method saves credential objects into credential_list
+            '''
+            Credential.credential_list.append(self)
 
-# @classmethod
-# def display_users(cls):
-#         '''
-#         method that returns the contact list
-#         '''
-#         return cls.credential_list
+    @classmethod
+    def display_credentials(cls):
+        '''
+        method that returns the contact list
+        '''
+        return cls.credential_list
+
+
+
+
+    # def confirm_credential(cls, username, password):
+    #         '''
+    #         Method that checks if the account and password  entered match entries in the credential_list
+    #         '''
+    #         current_credential = ''
+    #         for credential in Credential.credential_list:
+    #             if (credential.account == account and credential.password == password):
+    #                 current_user = credential.username
+    #         return current_credential
+
+    # @classmethod
+    # def display_users(cls):
+    #         '''
+    #         method that returns the contact list
+    #         '''
+    #         return cls.credential_list

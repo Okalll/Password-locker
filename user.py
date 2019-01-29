@@ -2,7 +2,7 @@ class User:
     """
     class that generates new instances of users
     """
-    user = user
+    
     user_list = []  # empty Users list
 
     def save_user(self):
@@ -39,3 +39,4 @@ class User:
         method that returns the contact list
         '''
         return cls.user_list
+
