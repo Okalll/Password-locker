@@ -179,7 +179,7 @@ def main():
                             print("Here is a list of all your saved logins")
                         print('\n')
                         for user_accounts in display_all_user_accounts():
-                                print(f"Account: {User.user_Account}, Username:{User.user_Account_username}, Password: {user_Acount.user_Account_password}")
+                                print(f"Account: {User.user}, Username:{User.user_Account_username}, Password: {user_Acount.user_Account_password}")
                         print('\n')
                     else:
                         print('\n')

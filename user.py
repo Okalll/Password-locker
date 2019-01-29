@@ -2,6 +2,7 @@ class User:
     """
     class that generates new instances of users
     """
+    user = user
     user_list = []  # empty Users list
 
     def save_user(self):
