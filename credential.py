@@ -44,9 +44,4 @@ class Credential:
     #                 current_user = credential.username
     #         return current_credential
 
-    # @classmethod
-    # def display_users(cls):
-    #         '''
-    #         method that returns the contact list
-    #         '''
-    #         return cls.credential_list
+   

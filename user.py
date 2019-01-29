@@ -34,7 +34,7 @@ class User:
         return current_user
 
     @classmethod
-    def display_users(cls):
+    def display_user(cls):
         '''
         method that returns the contact list
         '''
