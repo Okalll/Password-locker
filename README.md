@@ -26,13 +26,13 @@ To start using this project use the following commands:
 * One can also use `code.` if you are using vs code.
 * To run the application one should type `./run.py`in terminal.
 
+## Behaviour Driven Development.
+
 | Behaviour | input | Output |
 | :-------- | :---- | :----- |
 | Creation of account  | Input name, paswword, email | Information entered |
 | Login into the application | Input information needed  | Display user details |
 | Delete an account | ________ | account removed |
-
-## Known Bugs
 
 ## Known bugs
 
